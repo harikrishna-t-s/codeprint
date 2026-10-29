@@ -1,0 +1,4 @@
+# Reads two lines from standard input (use --input-file samples/input.txt).
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+print(f"Hello, {name}! Next year you will be {age + 1}.")

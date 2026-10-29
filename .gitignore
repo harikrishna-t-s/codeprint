@@ -1,0 +1,37 @@
+# virtualenv (the big one: Playwright etc., hundreds of MB)
+.venv/
+venv/
+env/
+
+# python caches / tests
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# generated output (demo library, exports, screenshots, PDFs)
+output/*
+!output/.gitkeep
+
+# local user data / config if ever created inside the project
+*.db
+*.sqlite3
+.codeprint-data/
+
+# patch-script backups
+.backup-before-update/
+*.bak-before-update
+
+# local notes / prompt files
+idea.prompt.txt
+
+# editor / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
